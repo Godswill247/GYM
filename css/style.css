@@ -1,0 +1,255 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@200..900&display=swap);
+
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: montserrat;
+}
+
+body {
+    background-color: rgb(68, 67, 67);
+}
+
+.navbar-brand {
+    background-color: blue;
+    margin-top: -10px;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: white;
+    text-decoration: line-through;
+    text-decoration-color: rgb(227, 226, 226);
+}
+
+.navbar-nav .nav-item .nav-link:hover,
+.navbar-nav .nav-item .active {
+    /* color: blue;
+    text-decoration: line-through;
+    text-decoration-color: cornflowerblue; */
+}
+
+/* .navbar-nav .nav-item .active {
+    color: black;
+} */
+
+.head {
+    background: url(../images/young-cheerful-personal-coach-helping-perform-to-muscular-guy-doing-exercises-lying-with-dumbbells-in-dark-gym-on-blurry-background-hot-girl-personal-trainer-supporting-senior-gray-man-PPE9WE.jpg);
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.head h1{
+    margin-left: 60%;
+    font-size: 400%;
+    font-weight: 500;
+    word-spacing: 0%;
+    letter-spacing: 0%;
+}
+.head h6{
+    margin-left: 60%;
+    font-size: larger;
+    font-weight: 550;
+    word-spacing: 0%;
+    letter-spacing: 0%;
+}
+.showcase a{
+    margin-left: 60%;
+    font-size: larger;
+    font-weight: 400;
+    word-spacing: 0%;
+    letter-spacing: 0%;
+}
+
+#why{
+    background-color: black;
+    padding-top: 10%;
+    padding-bottom: 15%;
+}
+
+#why h6 {
+    text-align: center;
+}
+#why h2{
+    text-align: center;
+}
+
+.pic1{
+    background:url(../images/equipment_icon.png);
+    max-height: 250px;
+    background-size: contain;
+    background-position: center;
+    margin-left: 35%;
+    height: 100px;
+    width: 100px;
+}
+.pic2{
+    background:url(../images/healthy_nutrition_icon.png);
+    max-height: 250px;
+    background-size: contain;
+    background-position: center;
+    margin-left: 35%;
+    height: 100px;
+    width: 100px;
+}
+.pic3{
+    background:url(../images/leadership-training-icon-1.png);
+    max-height: 250px;
+    background-size: contain;
+    background-position: center;
+    margin-left: 35%;
+    height: 100px;
+    width: 100px;
+}
+.pic4{
+    background:url(../images/unique_icon.png);
+    max-height: 250px;
+    background-size: contain;
+    background-position: center;
+    margin-left: 35%;
+    height: 100px;
+    width: 100px;
+}
+.icon{
+    text-align: center;
+}
+
+#our{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+#our h5 {
+    text-align: center;
+}
+#our h2{
+    text-align: center;
+}
+
+.pic5{
+    background:url(../images/pngtree-young-man-exercising-with-dumbbell-against-black-background-vector-picture-image_2269963.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0%;
+    height: 250px;
+    width: 100%;
+}
+.pic6{
+    background:url(../images/best-cardio-exercises-promo-2000-498cbfb8f07541b78572bf810e7fb600.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0%;
+    height: 250px;
+    width: 100%;
+}
+.pic7{
+    background:url(../images/kettlebell.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0%;
+    height: 250px;
+    width: 100%;
+}
+.pic8{
+    background:url(../images/indoor_cycling.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0%;
+    height: 250px;
+    width: 100%;
+}
+.pic9{
+    background:url(../images/boxing.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0%;
+    height: 250px;
+    width: 100%;
+}
+
+#registration{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+    background: url(../images/man-in-gym-2604149_1280.jpg);
+    background-size: cover;
+    height: 500px;
+}
+
+#registration a:hover{
+    background-color: blue;
+}
+
+#pictures{
+    padding-top: 5%;
+    padding-bottom: 7%;
+}
+
+.pic10{
+    background:url(../images/man-in-gym-2604149_1280.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0%;
+    height: 250px;
+    width: 100%;
+}
+.pic11{
+    background:url(../images/depositphotos_125654574-stock-photo-fitness-sport-training-and-people.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0%;
+    height: 250px;
+    width: 100%;
+}
+
+.pic12{
+    background:url(../images/gettingintoshape.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0%;
+    height: 250px;
+    width: 100%;
+}
+.pic13{
+    background:url(../images/gettyimages-1149242306.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0%;
+    height: 250px;
+    width: 100%;
+}
+
+.pic14{
+    background:url(../images/images-gym.jpeg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0%;
+    height: 250px;
+    width: 100%;
+}
+.pic15{
+    background:url(../images/pexels-gym-victor-freitas-791763.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0%;
+    height: 250px;
+    width: 100%;
+}
+
+i{
+    border-radius: 70px;
+    padding: 1.5%;
+}

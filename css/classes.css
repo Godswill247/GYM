@@ -1,0 +1,148 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@200..900&display=swap);
+
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: montserrat;
+}
+
+body {
+    background-color: black;
+}
+
+.navbar-brand {
+    background-color: blue;
+    margin-top: -10px;
+}
+
+.nav-link:hover {
+    color: blue !important;
+}
+
+/* .navbar-nav .nav-item .active {
+    color: black;
+} */
+
+.head {
+    background: url(../images/gym_background.jpeg);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.head h1 {
+    text-align: center;
+    font-size: 400%;
+    font-weight: 500;
+    word-spacing: 0%;
+    letter-spacing: 0%;
+}
+
+.head h6 {
+    text-align: center;
+    font-size: x-large;
+    font-weight: 550;
+    word-spacing: 0%;
+    letter-spacing: 0%;
+}
+
+#everything {
+    background-color: rgb(34, 34, 34);
+}
+
+.background {
+    background: url(../images/man-in-gym-2604149_1280.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 600px;
+}
+
+.pic {
+    background: url(../images/IMG-20230902-WA0009.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 20vw;
+    min-height: 450px;
+}
+
+.trainer {
+    width: 100%;
+    font-size: smaller;
+}
+
+.aboutrainer {
+    gap: 15%;
+}
+
+.about {
+    gap: 5%;
+}
+
+.stat {
+    font-weight: bold;
+}
+
+.categories {
+    /* gap: 3%; */
+    color: rgb(214, 211, 211);
+}
+
+.pic1 {
+    background: url(../images/rugby.jpeg);
+    min-height: 270px;
+    max-width: 300px;
+    background-position: right;
+    background-size: cover;
+}
+
+.pic2 {
+    background: url(../images/grilled\ potato.jpg);
+    min-height: 80px;
+    max-width: 250px;
+    background-position: center;
+    background-size: cover;
+}
+.pic3 {
+    background: url(../images/french\ rose.jpg);
+    min-height: 80px;
+    max-width: 250px;
+    background-position: center;
+    background-size: cover;
+}
+.pic5 {
+    background: url(../images/Ina\ Gartens\ Skillet-Roasted\ Lemon\ Chicken.jpg);
+    min-height: 80px;
+    max-width: 250px;
+    background-position: center;
+    background-size: cover;
+}
+.pic4 {
+    background: url(../images/grilled\ potato.jpg);
+    min-height: 80px;
+    max-width: 250px;
+    background-position: center;
+    background-size: cover;
+}
+.pic6 {
+    background: url(../images/pexels-gym-victor-freitas-791763.jpg);
+    min-height: 320px;
+    max-width: 320px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#tab{
+    background-color: rgb(34, 34, 34);
+    color: white;
+}
+.table tr th td{
+    padding: 10%;
+    margin: 10%;
+}
+table{
+    padding: 15px;
+}

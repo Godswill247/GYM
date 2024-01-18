@@ -1,0 +1,89 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@200..900&display=swap);
+
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: montserrat;
+}
+
+body {
+    background-color: black;
+}
+
+.navbar-brand {
+    background-color: blue;
+    margin-top: -10px;
+}
+
+.nav-link:hover {
+    color: blue !important;
+}
+.head {
+    background: url(../images/gym_background.jpeg);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+.head h1 {
+    text-align: center;
+    font-size: 400%;
+    font-weight: 500;
+    word-spacing: 0%;
+    letter-spacing: 0%;
+}
+
+.head h6 {
+    text-align: center;
+    font-size: x-large;
+    font-weight: 550;
+    word-spacing: 0%;
+    letter-spacing: 0%;
+}
+#activities{
+    text-align: center;
+}
+#activities span{
+    margin-top: 2%;
+}
+.container{
+    padding-bottom: 5%;
+}
+.pic1{
+    background: url(../images/one_hand_push_up.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 200px;
+}
+.pic2{
+    background: url(../images/gym_rest.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 200px;
+}
+.pic3{
+    background: url(../images/muscle_stretch.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 200px;
+}
+.pic4{
+    background: url(../images/weight\ loss\ measurement.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 200px;
+}
+h5{
+    padding: 10%;
+}
+.row .explore{
+    padding-bottom: 50%;
+}
+#activities .explore :hover{
+    color: blue;
+}

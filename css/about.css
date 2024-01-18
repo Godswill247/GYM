@@ -1,0 +1,141 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@200..900&display=swap);
+
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: montserrat;
+}
+
+body {
+    background-color: rgb(68, 67, 67);
+}
+
+.navbar-brand {
+    background-color: blue;
+    margin-top: -10px;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: white;
+    text-decoration: line-through;
+    text-decoration-color: rgb(227, 226, 226);
+}
+.navbar-nav .nav-item .nav-link :hover{
+    color: aqua;
+    /* text-decoration: line-through;
+    text-decoration-color: cornflowerblue; */
+}
+.navbar-nav .nav-item .active {
+    color: blue;
+    text-decoration: line-through;
+    text-decoration-color: cornflowerblue;
+}
+
+
+.navbar-nav .nav-item .active {
+    color: black;
+}
+
+.head {
+    background: url(../images/face-of-a-person-dark-background.jpg);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.head h1 {
+    text-align: center;
+    font-size: 400%;
+    font-weight: 500;
+    word-spacing: 0%;
+    letter-spacing: 0%;
+}
+
+.head h6 {
+    text-align: center;
+    font-size: larger;
+    font-weight: 550;
+    word-spacing: 0%;
+    letter-spacing: 0%;
+}
+
+#why{
+    background-color: black;
+    padding-top: 10%;
+    padding-bottom: 15%;
+}
+
+#why h6 {
+    text-align: center;
+}
+#why h2{
+    text-align: center;
+}
+
+.pic1{
+    background:url(../images/equipment_icon.png);
+    max-height: 250px;
+    background-size: contain;
+    background-position: center;
+    margin-left: 35%;
+    height: 100px;
+    width: 100px;
+}
+.pic2{
+    background:url(../images/healthy_nutrition_icon.png);
+    max-height: 250px;
+    background-size: contain;
+    background-position: center;
+    margin-left: 35%;
+    height: 100px;
+    width: 100px;
+}
+.pic3{
+    background:url(../images/leadership-training-icon-1.png);
+    max-height: 250px;
+    background-size: contain;
+    background-position: center;
+    margin-left: 35%;
+    height: 100px;
+    width: 100px;
+}
+.pic4{
+    background:url(../images/unique_icon.png);
+    max-height: 250px;
+    background-size: contain;
+    background-position: center;
+    margin-left: 35%;
+    height: 100px;
+    width: 100px;
+}
+.icon{
+    text-align: center;
+}
+
+#vid{
+    background-color: rgb(20, 19, 19);
+}
+
+.about{
+    padding-top: 25%;
+}
+
+#registration{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+    background: url(../images/man-in-gym-2604149_1280.jpg);
+    background-size: cover;
+    height: 500px;
+}
+
+#registration a:hover{
+    background-color: blue;
+}
+
+i{
+    border-radius: 70px;
+    padding: 1.5%;
+}
